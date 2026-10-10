@@ -8,6 +8,7 @@
 <meta name="keywords" content="recipe, recipes, food, cooking, cookery, recepie, recepies, recipie, recipies, lamb, rosemary, garlic, kebab, kebabs, onion, onions, marinate, marinade, brochette, brochettes">
 <link rel="stylesheet" href="../../_css/recipes.css" type="text/css">
 <link rel="stylesheet" type="text/css" href="../../_css/frame.css">
+<script type="text/javascript" src="../../_js/send.js"></script>
 </head>
 <body background="../../images/recipe_bg30.jpg" bgcolor="White" link="Blue" vlink="Blue" alink="Black">
 <div align="left">
@@ -37,7 +38,7 @@
 <li>Cook under a hot grill for 10 minutes, turning once. The lamb should be slightly pink in the middle. The bay leaves will burn, but don't worry about it. You're not supposed to eat them anyway.
 </ol>
 <div align="center">
-	<form method="POST" action="/">
+	<form action="#" onsubmit="return sendRecipe(this)">
 		<input type="hidden" name="go_to" value="www.jill.net/recipes/recipes/lamb_kebabs.html">
 		<input type="hidden" name="mestxt" value="lamb_kebabs.txt">
 		<input type="hidden" name="subject" value="Recipe for Lamb Kebabs with Rosemary and Garlic, by Jill's Gradely Scran">

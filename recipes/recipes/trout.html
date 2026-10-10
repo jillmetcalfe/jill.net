@@ -8,6 +8,7 @@
 <meta name="keywords" content="recipe, recipes, trout, fish, truite, almond, almonds, amande, amandes, whole fish, fishes, fishing, food, cooking, cookery, recepie, recepies, recipie, recipies">
 <link rel="stylesheet" href="../../_css/recipes.css" type="text/css">
 <link rel="stylesheet" type="text/css" href="../../_css/frame.css">
+<script type="text/javascript" src="../../_js/send.js"></script>
 </head>
 <body background="../../images/recipe_bg30.jpg" bgcolor="White" link="Blue" vlink="Blue" alink="Black">
 <div align="left">
@@ -84,7 +85,7 @@
     <tr>
         <td>
 		<div align="center">
-		<form method="POST" action="/">
+		<form action="#" onsubmit="return sendRecipe(this)">
 		<input type="hidden" name="go_to" value="www.jill.net/recipes/recipes/trout.html">
 		<input type="hidden" name="mestxt" value="trout.txt">
 		<input type="hidden" name="subject" value="Trout with almonds, by Jill's Gradely Scran">

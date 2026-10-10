@@ -8,6 +8,7 @@
 <meta name="keywords" content="recipe, recipes, food, cooking, cookery, recepie, recepies, recipie, recipies, dressing, salad dressing, vinaigrette, vinaigret, vinagrette, olive oil, vinegar, mustard">
 <link rel="stylesheet" href="../../_css/recipes.css" type="text/css">
 <link rel="stylesheet" type="text/css" href="../../_css/frame.css">
+<script type="text/javascript" src="../../_js/send.js"></script>
 </head>
 <body background="../../images/recipe_bg30.jpg" bgcolor="White" link="Blue" vlink="Blue" alink="Black">
 <div align="left">
@@ -35,7 +36,7 @@
 <hr color="Black" noshade>
 Being quite tangy, this dressing works well with the scarier varieties of salad leaf (rocket, radicchio, endive, etc.). Play around with different varieties of oil, vinegar and mustard.
 <div align="center">
-	<form method="POST" action="/">
+	<form action="#" onsubmit="return sendRecipe(this)">
 		<input type="hidden" name="go_to" value="www.jill.net/recipes/recipes/vinaigrette.html">
 		<input type="hidden" name="mestxt" value="vinaigrette.txt">
 		<input type="hidden" name="subject" value="Recipe for Basic Vinaigrette Dressing, by Jill's Gradely Scran">

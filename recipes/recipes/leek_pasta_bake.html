@@ -20,6 +20,7 @@ function PreloadImages() {
 //-->
 </script>
 <link rel="stylesheet" type="text/css" href="../../_css/frame.css">
+<script type="text/javascript" src="../../_js/send.js"></script>
 </head>
 <body background="../../images/recipe_bg30.jpg" bgcolor="White" link="Blue" vlink="Blue" alink="Black" onload="PreloadImages();">
 <div align="left">
@@ -93,7 +94,7 @@ function PreloadImages() {
 	<tr>
 		<td>
 		<div align="center">
-		<form method="POST" action="/">
+		<form action="#" onsubmit="return sendRecipe(this)">
 		<input type="hidden" name="go_to" value="www.jill.net/recipes/recipes/leek_pasta_bake.html">
 		<input type="hidden" name="mestxt" value="leek_pasta_bake.txt">
 		<input type="hidden" name="subject" value="Recipe for Leek and Pasta Bake by Jill's Gradely Scran">

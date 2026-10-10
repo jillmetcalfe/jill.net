@@ -8,6 +8,7 @@
 <meta name="keywords" content="recipe, recipes, food, cooking, cookery, mozzarella cheese, mozzarella, mozarela, mozzarela, mozarella, mozarrella, tomato, tomatoes, tomatoe, tomatos, salad, salads, basil, olive oil, tomato salad, cheese salad, mozzarella salad, recepie, recepies, recipie, recipies">
 <link rel="stylesheet" href="../../_css/recipes.css" type="text/css">
 <link rel="stylesheet" type="text/css" href="../../_css/frame.css">
+<script type="text/javascript" src="../../_js/send.js"></script>
 </head>
 <body background="../../images/recipe_bg30.jpg" bgcolor="white" link="blue" vlink="blue" alink="black">
 <div align="left">
@@ -68,7 +69,7 @@
     <tr>
         <td>
 		<div align="center">
-		<form method="POST" action="/">
+		<form action="#" onsubmit="return sendRecipe(this)">
 		<input type="hidden" name="go_to" value="www.jill.net/recipes/recipes/tomatomozzarella.html">
 		<input type="hidden" name="mestxt" value="tomatomozzarella.txt">
 		<input type="hidden" name="subject" value="Tomato and mozzarella salad, by Jill's Gradely Scran">

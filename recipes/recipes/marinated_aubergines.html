@@ -15,6 +15,7 @@ function popup(url) {
 //-->
 </script>
 <link rel="stylesheet" type="text/css" href="../../_css/frame.css">
+<script type="text/javascript" src="../../_js/send.js"></script>
 </head>
 <body background="../../images/recipe_bg30.jpg" bgcolor="White" link="Blue" vlink="Blue" alink="Black">
 <div align="left">
@@ -45,7 +46,7 @@ function popup(url) {
 <p>This recipe was inspired by a dish that used to be served at La Vela, an Italian restaurant overlooking the marina in Lutry, a small wine-growing village on the northern shores of Lake Geneva in Switzerland, just outside Lausanne. It reminds me of balmy summer evenings watching the sun set over the Alps with a group of friends, getting pissed on Montepulciano, telling rude jokes very loudly and annoying all the people at neighbouring tables.</p>
 <hr color="Black" noshade>
 <div align="center">
-	<form method="POST" action="/">
+	<form action="#" onsubmit="return sendRecipe(this)">
 		<input type="hidden" name="go_to" value="www.jill.net/recipes/recipes/marinated_aubergines.html">
 		<input type="hidden" name="mestxt" value="marinated_aubergines.txt">
 		<input type="hidden" name="subject" value="Marinated Aubergines, by Jill's Gradely Scran">

@@ -15,6 +15,7 @@ function popup(url) {
 //-->
 </script>
 <link rel="stylesheet" type="text/css" href="../../_css/frame.css">
+<script type="text/javascript" src="../../_js/send.js"></script>
 </head>
 <body background="../../images/recipe_bg30.jpg" bgcolor="White" link="Blue" vlink="Blue" alink="Black">
 <div align="left">
@@ -48,7 +49,7 @@ function popup(url) {
 </ol>
 <p>Another Nigel Slater ("Only the generous can make a sandwich worth eating") classic, from <i>Real Food</i>. I've altered the recipe very slightly - he uses more cheese and more olive oil, but I found the cheese was piled so high there was no way I could get it all to melt. So I reduced the quantities and, notwithstanding the above quotation, the result is still delicious.</p>
 <div align="center">
-	<form method="POST" action="/">
+	<form action="#" onsubmit="return sendRecipe(this)">
 		<input type="hidden" name="go_to" value="www.jill.net/recipes/recipes/hot_mozzarella_focaccia.html">
 		<input type="hidden" name="mestxt" value="hot_mozzarella_focaccia.txt">
 		<input type="hidden" name="subject" value="Hot Mozzarella Focaccia, by Jill's Gradely Scran">

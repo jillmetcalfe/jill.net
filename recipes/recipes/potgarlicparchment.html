@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="../../_css/recipes.css" type="text/css">
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <link rel="stylesheet" type="text/css" href="../../_css/frame.css">
+<script type="text/javascript" src="../../_js/send.js"></script>
 </head>
 <body background="../../images/recipe_bg30.jpg" bgcolor="white" link="#0000FF" vlink="#0000FF" alink="#000000">
 <div align="left">
@@ -77,7 +78,7 @@
     <tr>
         <td>
 		<div align="center">
-		<form method="POST" action="/">
+		<form action="#" onsubmit="return sendRecipe(this)">
 		<input type="hidden" name="go_to" value="www.jill.net/recipes/recipes/potgarlicparchment.html">
 		<input type="hidden" name="mestxt" value="potgarlicparchment.txt">
 		<input type="hidden" name="subject" value="Potatoes and garlic baked in parchment, by Jill's Gradely Scran">
