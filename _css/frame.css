@@ -1,0 +1,11 @@
+/* Show the page at the 640px width it was designed for, centred on wide screens. */
+html {
+	background: #111;
+}
+body {
+	max-width: 640px;
+	min-height: 100vh;
+	margin: 0 auto;
+	padding: 8px;
+	box-sizing: border-box;
+}
